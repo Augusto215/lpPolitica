@@ -9,7 +9,7 @@ $('#float-button').click(function() {
   });
   
   document.querySelectorAll('.contrate-a').forEach(function(el) {
-    el.setAttribute('href', 'https://api.whatsapp.com/send?phone=5555119482065&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar%20com%20o%20Gustavo.');
+    el.setAttribute('href', 'https://api.whatsapp.com/send?phone=55119482065&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20conversar%20com%20o%20Gustavo.');
 });
 
   document.getElementById('whatsapp-form').addEventListener('submit', function(event) {
@@ -69,5 +69,5 @@ $('#float-button').click(function() {
     typeSpeed: 50,
     loop:true,
   });
-  
+
   document.querySelector('#element').style.color = '#55ec8f';
