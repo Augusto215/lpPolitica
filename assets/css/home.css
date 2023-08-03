@@ -362,6 +362,7 @@ nav a
 {
  width: 100%;
 position: relative;
+padding: .5rem;
 
   
 }
@@ -512,4 +513,19 @@ lottie-player
     {
         margin-bottom:1rem;
     }
+
+    .item-slider img
+{
+   height: 2.5rem !important;
+
+  
+  
+}
+
+.item-slider
+{
+font-size: 1rem !important;
+  
+}
+
 }
