@@ -14,6 +14,10 @@
     
 }
 
+.typed-cursor {
+    color: #55ec8f; /* Altere para a cor que você quiser */
+  }
+
 body
 {
     background-color: var(--background-color);
@@ -123,7 +127,7 @@ border-radius: 12px;
 }
 .card
 {
-    max-height: 30rem;
+   
     border-radius: 12px;
     border: none;
     background-color: #2c2a2c;
@@ -182,7 +186,8 @@ form
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    text-align:left;
 }
 .card img
 {
@@ -234,6 +239,7 @@ header
    
 }
 
+
 header.scrolled
 {
     background: #1f1e1f;
@@ -248,7 +254,11 @@ nav a
 }
 
 
+.card-title
 
+{
+    color:var(--border-color) !important;
+}
 
 
 #index2 h1
@@ -271,10 +281,10 @@ nav a
     color: #000 !important;
     font-weight: 900 !important;
     text-transform: uppercase !important;
-    border-radius: 50%;
     outline: none;
+    border-radius: 30px;
     border: none;
-    padding: .5rem .7rem;
+    padding: .6rem 2rem;
 }
 
 .button-main1
@@ -340,6 +350,9 @@ nav a
     
 
 }
+
+
+
  .owl-nav, .owl-dots
 {
     display: none !important;
@@ -352,6 +365,7 @@ position: relative;
 
   
 }
+
 
 
 
@@ -401,7 +415,7 @@ h2
     color: #fff;
     font-weight: 500 !important;
 }
-@media(max-width:60rem)
+@media(max-width:991px)
 {
     #index1
     {
