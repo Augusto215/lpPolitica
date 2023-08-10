@@ -70,4 +70,4 @@ $('#float-button').click(function() {
     loop:true,
   });
 
-  document.querySelector('#element').style.color = '#55ec8f';
+  document.querySelector('#element').style.color = '#f82020';

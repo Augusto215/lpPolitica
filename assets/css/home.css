@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700;800;900&display=swap');
 
 :root {
-    --btn-color: #0454ff;
-    --border-color: #55ec8f;
+    --btn-color: #575757;
+    --border-color: #f82020;
     --background-color: rgb(10, 10, 10);
-    --btn-color-gradient: linear-gradient(to right, #55ec8f, #0fbe44) ;
+    --btn-color-gradient:  #f82020;
   }
 
 *
@@ -15,7 +15,7 @@
 }
 
 .typed-cursor {
-    color: #55ec8f; /* Altere para a cor que você quiser */
+    color: var(--border-color); /* Altere para a cor que você quiser */
   }
 
 body
@@ -54,7 +54,7 @@ button
 #index1::before
 {
     content: '';
-    filter:grayscale(.4);
+    filter:grayscale(.8);
     position: absolute;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.685), rgba(27, 27, 27, 0.699)), url('../image/pexels-leonardo-dourado-16842371.jpg');
     background-size: cover;
@@ -92,7 +92,8 @@ border-radius: 12px;
 {
     height:10rem;
     margin-bottom: 2.5rem;
-    filter:grayscale(.4);
+    transform: rotateY(180deg);
+   
 }
 .index1-txt
 
@@ -186,7 +187,7 @@ form
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align:left;
 }
 .card img
@@ -278,7 +279,7 @@ nav a
 .button-wpp
 {
     background: var(--btn-color-gradient);
-    color: #000 !important;
+    color: #ffffff !important;
     font-weight: 900 !important;
     text-transform: uppercase !important;
     outline: none;
@@ -297,7 +298,7 @@ nav a
 .button-main2
 {
     background: var(--btn-color-gradient);
-    color: #000 !important;
+    color: #fff !important;
     font-weight: 900 !important;
     text-transform: uppercase !important;
 }
@@ -319,7 +320,7 @@ nav a
     background: var(--btn-color-gradient);
     letter-spacing: 2px;
     border-radius: 20px;
-    color: #000 !important;
+    color: #ffffff !important;
     
 
     
@@ -340,7 +341,7 @@ nav a
 {
     background-color:rgb(255, 255, 255);
     border-radius: 20px;
-    height: 7rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -363,16 +364,30 @@ nav a
  width: 100%;
 position: relative;
 padding: .5rem;
+font-size: 1.4rem;
 
   
 }
 
 
+.nav-item {
+    margin-right: 2rem;
+    display: flex;
+   
+    align-items: center;
+
+}
+
+.item-slider p
+{
+    margin-top: 1rem;
+}
+
 
 
 .item-slider img
 {
-   height: 4rem;
+   height: 7rem;
    width: auto !important;
    margin: 0 auto;
   
@@ -387,7 +402,18 @@ padding: .5rem;
     padding: 3rem;
   
 }
-#index1 button
+
+#index2 button
+
+{
+    border-radius: 7px !important;
+}
+
+#index1 button, #index7 button, #index2 button, form button
+{
+    color: #fff !important;
+}
+ button
 {
     border:none;
     outline: none;
@@ -398,7 +424,9 @@ padding: .5rem;
     font-size: 1rem;
     text-transform: capitalize !important;
     box-shadow: 2px 2px 5px #1b1b1b;
+    color: #fff !important;
     margin:.7rem .3rem;
+   
 }
 .svg-div lootie-player
 {
@@ -418,6 +446,13 @@ h2
 }
 @media(max-width:991px)
 {
+
+    .navbar-brand img
+    {
+        height: 2.5rem !important;
+    }
+
+
     #index1
     {
         min-height: 40rem;
@@ -514,18 +549,12 @@ lottie-player
         margin-bottom:1rem;
     }
 
-    .item-slider img
-{
-   height: 2.5rem !important;
+    .navbar-brand img
+    {
+        height: 2rem !important;
+    }
 
   
-  
-}
 
-.item-slider
-{
-font-size: 1rem !important;
-  
-}
 
 }
