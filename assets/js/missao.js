@@ -18,7 +18,7 @@ $('#float-button').click(function() {
     var name = document.getElementById('name').value;
     var message = document.getElementById('message').value;
     
-    var whatsappUrl = "https://wa.me/5511948206594?text=" + encodeURIComponent("Nome" + ': ' + name + ': ' + "Mensagem" + ': ' + message);
+    var whatsappUrl = "https://wa.me/11945782764?text=" + encodeURIComponent("Nome" + ': ' + name + ': ' + "Mensagem" + ': ' + message);
     
     // Feche o modal e abra o WhatsApp depois de um pequeno atraso
     $('#formModal').modal('hide');
